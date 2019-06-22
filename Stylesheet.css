@@ -1,0 +1,204 @@
+body
+{
+    font-family: lucida grande ,tahoma,verdana,arial,sans-serif;
+    background-color: #fff;
+}
+body p
+{
+    font-size: 0.9em;
+    line-height: 1.28;
+}
+#interface
+{
+    width: 1500px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#header
+{
+    background-image: url(Images/bg_2.jpg);
+    background-size: cover;   
+    height: 700px;
+    
+}
+
+.content_area 
+{
+    margin-top: 20px;
+    padding: 10px;
+}
+.header2Ce
+{
+    text-align: center;
+    color: #09E;
+}
+footer
+{
+    clear: both;
+    width: auto;
+    height: 200px;
+    padding-top: 100px;
+    text-align: center;
+    color: #EEE;
+    background-color: #000;
+}
+
+#navigation
+{
+    height: 60px;
+    padding: 5px;
+    background-color: #000;
+   
+}
+
+#nav
+{
+    list-style: none;
+}
+
+#nav ul
+{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    display: none;
+}
+
+#nav li
+{
+    font-size: 24px;
+    float: left;
+    position: relative;
+    width: 210px;
+    height: 80px;
+    text-align: center;                                                   
+}
+
+#nav a:link, nav a:active, nav a:visited
+{
+  
+    color: #fff;
+    text-decoration: none;
+}
+
+#nav a:hover
+{
+    background-color: #036;
+    border-radius: 10px;
+    display: block;
+    border-style: groove;
+}
+#buttonMenu
+{
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+
+}
+#buttonMenu button
+{
+    font-size: 22px;
+    background-color: #DDd;
+    border-radius: 10px;
+    width: 160px;
+}
+#buttonMenu button:hover
+{
+    background-color: #fff;
+    color: #000;
+}
+.headMenu
+{
+    text-align: center;
+    color: #039;
+}
+.serviceTable , .chefTable , .hourTable
+{
+    
+    height: 250px;
+    width: 1480px;   
+}
+.serviceTable tr td ,.chefTable tr td , .hourTable tr td
+{
+    text-align: center;
+    padding: 10px 40px 10px 40px;
+
+}
+
+.chefTable img ,.MenuTable img
+{
+    padding: 0px 10px 10px 10px;
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+}
+.MenuTable
+{
+    
+    height: 250px;
+    width: 1480px;   
+}
+
+.MenuTable tr td
+{
+    text-align: left;
+    padding: 10px 40px 10px 40px;
+
+}
+
+.MenuTable img
+{
+    float: left;
+}
+.field
+{
+    border-color: #DDD;
+    
+}
+.inputField
+{
+    width: 600px;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.legend
+{
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 20px;
+    font-size: 22px;
+    background-color: #fff;
+    width: 300px;
+    height: 40px;
+
+}
+.button
+{
+    font-size: 24px; 
+    background-color: #69f;
+    color: white; 
+    width: 200px
+}
+label
+{
+    float: left;
+    width: 100px;
+    font-weight: bold;
+}
+#info
+{
+    text-align: center;
+    margin-top: 30px;
+ padding: 30px;
+    height: 100px;
+    background-color: #fff;
+    font-size:20px;
+}
+
+

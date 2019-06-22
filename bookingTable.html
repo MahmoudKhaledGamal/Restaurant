@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <meta charset="utf-8">
+        <title>Booking Table</title>
+        <link rel="stylesheet" type="text/css" href="Stylesheet.css" />
+        <link rel="icon"  href="Images/images (5).jpg">
+    </head>
+    <body>
+      <div id="interface">
+            <!--put background of header by using CSS-->
+             <div id="header">         
+             </div>
+              <!--navigation , contains ( Home , Menu , Requesting order , Booking table , Contact us , About us)-->
+             <nav id="navigation">
+                  <ul id="nav">
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="Menu.html">Menu</a></li>
+                      <li><a href="Requesting.html">Requesting order</a></li>
+                      <li><a href="bookingTable.html">Booking table</a></li>
+                      <li><a href="Contact.html">Contact us</a></li>
+                      <li><a href="About.html">About us</a></li>
+                  </ul>
+              </nav>
+          <!-- form to book table -->
+          <div class="content_area">
+           <form>
+            <fieldset class="field">   
+                <legend class="legend">Booking Table</legend></br>
+
+                <label>Username: </label>
+                <input type="text" class="inputField" pattern="[A-Za-z]{3}" name="txtNameUS" placeholder="Enter name more then 3 letters"><br/>
+
+                <label>Time: </label>
+                <input id="time" type="time" class="inputField" name="txtTime" required><br/>
+
+                <label>Date: </label>
+                <input id="date" type="date" class="inputField" name="txtDate" required><br/>
+
+                <label>Phone: </label>
+                <input type="tel"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" class="inputField" name="txtPhone" placeholder="Enter phone such as 123-567-1235"><br/>
+
+                <label>Number of individuals: </label>
+                <input type="number" class="inputField" name="txtIndiv"><br/>
+
+                <label>Number of tables: </label>
+                <input id="num" type="number" class="inputField" name="txtTables" required><br/></br>
+
+                <input  class="button" type="submit" value="Submit" onclick="Booking()">
+            </fieldset>
+         </form>
+       </div>
+
+       <footer>
+            <p>Copyright  &copy; 2019 All rights reserved</p>
+            <p>&hearts; &hearts; &hearts; &hearts;<p>
+            <p> made by Mahmoud Khaled Gamal</p> 
+     </footer>
+     </div>
+     <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>

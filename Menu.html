@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<meta charset="utf-8">
+    	<title>Menu</title>
+        <link rel="stylesheet" type="text/css" href="Stylesheet.css" />
+        <link rel="icon"  href="Images/img.jpg">
+    </head>
+    <body>
+        <div id="interface">
+        	<!--put background of header by using CSS-->
+            <div id="header">         
+            </div>
+            <!--navigation , contains ( Home , Menu , Requesting order , Booking table , Contact us , About us)-->
+             <nav id="navigation">
+                <ul id="nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Menu.html">Menu</a></li>
+                    <li><a href="Requesting.html">Requesting order</a></li>
+                    <li><a href="bookingTable.html">Booking table</a></li>
+                    <li><a href="Contact.html">Contact us</a></li>
+                    <li><a href="About.html">About us</a></li>
+                </ul>
+            </nav>
+            <!-- Buttons to select any type of menu -->
+            <div id="buttonMenu">
+            	   <button onclick="show('All')">All Product</button>
+                   <button onclick="show('Barbecue')">Barbecue</button>
+                   <button onclick="show('Soup')">Soup</button>
+                   <button onclick="show('Salad')">Salad</button>
+                   <button onclick="show('Casserole')">Casserole</button>
+                   <button onclick="show('Drinks')">Drinks</button>
+                   <button onclick="show('Stuffed')">Stuffed</button>
+                   <button onclick="show('Desserts')">Desserts</button>
+            </div>
+            <!--- Default menu ( All products )-->
+            <div id="filter">
+            	<h2 class='headMenu'>All Products</h2>
+            	<div>
+            		<table class='MenuTable'>
+            			<tr>
+            				<td>
+            					<img src='Images/bar1.jpg'>
+            					<p><b>Name</b>: Pigeon <br><b>price</b>: 30&pound; <br><b>Description</b>: Delicious , useful , cheap <br><b>Component</b>: One Pigeon , Rice , Salad , piece of bread </p>
+            				</td>
+            				<td>
+            					<img src='Images/Barbc.jpg'>
+            					<p><b>Name</b>: Kebab <br><b>price</b>: 24 &pound; <br><b>Description</b>: Delicious , useful , cheap <br><b>Component</b> : Kebab , Rice , Pickled , piece of bread</p>
+            				</td>
+            				<td>
+            					<img src='Images/bar4.jpg'>
+            					<p><b>Name</b>: Meat <br><b>price</b>: 28 &pound; <br><b>Description</b>:  Delicious , useful , cheap <br><b>Component</b>: Meat , Potatos , Pickled , piece of bread </p>
+            				</td>
+            			</tr>
+            			<tr>
+            				<td>
+            					<img src='Images/bar2.jpg'>
+            					<p><b>Name</b>: Kofta <br><b>price</b>: 20 &pound;<br><b>Description</b>: Delicious , useful , cheap <br><b>Component</b> : Kofta , Rice , Pickled , piece of bread </p>
+            				</td> 
+            				<td>
+            					<img src='Images/menu-1.jpg'>
+            					<p><b>Name</b>: Meat of hot <br><b>price</b>: 40&pound; <br><b>Description</b>: Delicious , useful , cheap , hot <br><b>Component</b>: Meat , Vegetables , two bread , Rice , potatos  </p>
+            				</td>
+            				<td>
+            					<img src='Images/lunch-2.jpg'>
+            					<p><b>Name</b>: Ckicken <br><b>price</b>: 35&pound; <br><b>Description</b>: Delicious , useful , cheap <br><b>Component</b>: quarter of chicken , Salad , piece of bread , Rice </p>
+            				</td>
+            			</tr>
+            			<tr>
+            				<td>
+            					<img src='Images/soup.jpg'>
+            					<p><b>Name</b>: Vegetables Soup<br><b>price</b>: 10&pound; <br><b>Description</b>: Delicious , useful , cheap <br><b>Component</b>: Vegetables , Salad </p>
+            				</td>
+            				<td>
+            					<img src='Images/soup1.jpg'>
+            					<p><b>Name</b>: Soup of Tassan <br><b>price</b>: 15&pound; <br><b>Description</b>: Delicious , useful , cheap <br><b>Component</b>: Tassuour , Salad </p>
+            				</td>
+            				<td>
+            					<img src='Images/Stuffed.jpg'>
+            					<p><b>Name</b>: stuffed _Zucchini_ <br><b>price</b>: 20&pound; <br><b>Description</b>: Delicious , useful , cheap <br><b>Component</b>: Zucchini , Salad , piece of bread , Potatos </p>
+            				</td>
+            				
+            			</tr>
+            			<tr>
+            				<td>
+            					<img src='Images/Stuffed4.jpg'>
+            					<p><b>Name</b>: stuffed _Grape leaves_<br><b>price</b>: 20&pound; <br><b>Description</b>: Delicious , useful , cheap <br><b>Component</b>: Grape leaves , Salad , piece of bread , Potatos</p>
+            				</td>
+            				<td>
+            					<img src='Images/Stuffed3.jpg'>
+            					<p><b>Name</b>: stuffed _Eggplant_ <br><b>price</b>: 20&pound; <br><b>Description</b>: Delicious , useful , cheap <br><b>Component</b>: Eggplant , Salad , piece of bread , Potatos</p>
+            				</td>
+            				<td>
+            					<img src='Images/Stuffed1.jpg'>
+            					<p><b>Name</b>: stuffed _Cabbage_ <br><b>price</b>: 20&pound; <br><b>Description</b>: Delicious , useful , cheap <br><b>Component</b>: Cabbage , Salad , piece of bread , Potatos </p>
+            				</td>
+            			</tr>
+            			<tr>
+            				<td>
+            					<img src='Images/drink-5.jpg'>
+            					<p><b>Name</b>: Mint <br><b>price</b>: 3&pound; <br><b>Description</b>:  Useful , cheap , Medium sugar <br><b>Component</b>: Mint  </p>
+            				</td>
+            			
+            				<td>
+            					<img src='Images/drink-6.jpg'>
+            					<p><b>Name</b>: Tea with Mint <br><b>price</b>: 5&pound; <br><b>Description</b>: Medium sugar Cheap <br><b>Component</b>: Tea and Mint </p>
+            				</td>
+            				<td>
+            					<img src='Images/drink-2.jpg'>
+            					<p><b>Name</b>: Lemon  <br><b>price</b>: 5&pound; <br><b>Description</b>: Useful , cheap , Medium sugar <br><b>Component</b>: Lemon </p>
+            				</td>
+            			</tr>
+            			<tr>
+            				<td>
+            					<img src='Images/drink-7.jpg'>
+            					<p><b>Name</b>: Tea only <br><b>price</b>: 3&pound; <br><b>Description</b>: Delicious , Medium sugar , cheap <br><b>Component</b>: Tea </p>
+            				</td>
+            				<td>
+            					<img src='Images/drink-3.jpg'>
+            					<p><b>Name</b>: Pepsi <br><b>price</b>: 6&pound; <br><b>Description</b>: Delicious , cheap </p>
+            				</td>
+            				<td>
+            					<img src='Images/drink-4.jpg'>
+            					<p><b>Name</b>: Cola <br><b>price</b>: 6&pound; <br><b>Description</b>: Delicious , cheap </p>
+            				</td>
+            			</tr>
+            			<tr>
+            				<td>
+            					<img src='Images/dessert-1.jpg'>
+            					<p><b>Name</b>: Cake with Fruits <br><b>price</b>: 20&pound; <br><b>Description</b>: Delicious , useful , cheap <br><b>Component</b>: Cake , Strawberry , Nuts  , Watermelon </p>
+            				</td>
+            				<td>
+            					<img src='Images/dessert-2.jpg'>
+            					<p><b>Name</b>: Cocktail <br><b>price</b>: 15&pound; <br><b>Description</b>: Delicious , cheap , useful <br><b>Component</b>: Vanilla , Strawberry , Nuts  , Biscuit </p>
+            				</td>
+            				<td>
+            					<img src='Images/dessert-3.jpg'>
+            					<p><b>Name</b>: Cake with chocolate<br><b>price</b>: 15&pound; <br><b>Description</b>: Delicious , cheap ,useful <br><b>Component</b>: Chocolate , cake</p>
+            				</td>
+            			</tr>
+            			<tr>
+            				<td>
+            					<img src='Images/dessert-4.jpg'>
+            					<p><b>Name</b>: Ice Cream <br><b>price</b>: 8&pound; <br><b>Description</b>: Delicious , useful , cheap <br><b>Component</b>: Vanilla </p>
+            				</td>
+            				<td>
+            					<img src='Images/dessert-5.jpg'>
+            					<p><b>Name</b>: Cake <br><b>price</b>: 15&pound; <br><b>Description</b>: Delicious , cheap <br><b>Component</b>: Vanilla , Strawberry , Nuts </p>
+            				</td>
+            				<td>
+            					<img src='Images/cass.jpg'>
+            					<p><b>Name</b>: Casserole _Chicken_ <br><b>price</b>: 40&pound; <br><b>Description</b>: Delicious , cheap <br><b>Component</b>: Chicken , rice , two bread</p>
+            				</td>
+            			</tr>
+            			<tr>
+            				<td>
+            					<img src='Images/cass1.jpg'>
+            					<p><b>Name</b>: Casserole _Meat_ <br><b>price</b>: 45&pound; <br><b>Description</b>: Delicious , cheap <br><b>Component</b>: Meat  , Rice , Two bread </p>
+            				</td>
+            				<td>
+            					<img src='Images/cass3.jpg'>
+            					<p><b>Name</b>:Casserole _Okra_ <br><b>price</b>: 30&pound; <br><b>Description</b>: Delicious , cheap <br><b>Component</b>: Okra , pasta , two bread</p>
+            				</td>
+            				<td>
+            					<img src='Images/cass4.jpg'>
+            					<p><b>Name</b>: Casserole _Liver_ <br><b>price</b>: 33&pound; <br><b>Description</b>: Delicious , cheap  <br><b>Component</b>: Liver , pasta , two bread</p>
+            				</td>
+            			</tr>
+            			<tr>
+            				<td>
+            					<img src='Images/salad1.jpg'>
+            					<p><b>Name</b>: Salad <br><b>price</b>: 5&pound; <br><b>Description</b>: Delicious , cheap <br></p>
+            				</td>
+            				<td>
+            					<img src='Images/salad2.jpg'>
+            					<p><b>Name</b>: Salad of tahini <br><b>price</b>: 5&pound; <br><b>Description</b>: Delicious , cheap </p>
+            				</td>
+            				<td>
+            					<img src='Images/salad3.jpg'>
+            					<p><b>Name</b>: Hot salad <br><b>price</b>: 6&pound; <br><b>Description</b>: Delicious , hot , cheap </p>
+            				</td>
+            			</tr>
+            		</table>
+            	</div>
+            </div>
+            <!-- footer -->
+            <footer>
+                <p>Copyright &copy; All rights reserved</p>
+                <p>&hearts; &hearts; &hearts; &hearts;<p>
+                <p> made by Mahmoud Khaled Gamal</p>
+            </footer>
+        </div>
+        <script src="main.js">    	
+        </script>
+    </body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <meta charset="utf-8">
+        <title>Contact us</title>
+        <link rel="stylesheet" type="text/css" href="Stylesheet.css" />
+        <link rel="icon"  href="Images/ip-phone-icon-64.png">
+    </head>
+    <body>
+      <div id="interface">
+            <!--put background of header by using CSS-->
+             <div id="header">         
+             </div>
+            <!--navigation , contains ( Home , Menu , Requesting order , Booking table , Contact us , About us)-->
+             <nav id="navigation">
+                  <ul id="nav">
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="Menu.html">Menu</a></li>
+                      <li><a href="Requesting.html">Requesting order</a></li>
+                      <li><a href="bookingTable.html">Booking table</a></li>
+                      <li><a href="Contact.html">Contact us</a></li>
+                      <li><a href="About.html">About us</a></li>
+                  </ul>
+              </nav>
+          <!-- Information contact -->
+          <div id="info">
+            <p><b>Address </b>: Maghagha/Minia/Egypt &nbsp;|&nbsp; <b>Phone</b>: 01148262602 - 01552610406  &nbsp;|&nbsp;  <b>E-mail</b> : Mk1466471@Gmail.com<p>  
+          </div>
+          <!-- form to contact -->
+          <div class="content_area">
+             <form>
+                  <fieldset class='field'>   
+                      <legend class='legend'>Contact us</legend></br>
+
+                      <label>E-mail: </label>
+                      <input id="gmail" type="e-mail" class="inputField" name="txtGmail" pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*$" required placeholder="Enter G-mail such as Mk1466471@gmail.com"><br/>
+
+                      <label>Messege: </label>
+                      <textarea id="messege" cols="10" rows="1" class="inputField" name="txtMessege" required></textarea></br></br>
+
+                      <label>Feedback: </label>
+                      <textarea cols="10" rows="1" class="inputField" name="txtFeedback"></textarea></br></br>
+
+                      <input  class="button" type="submit" value="Send Messege" onclick="Contact()">
+                  </fieldset>
+             </form>
+          </div>
+         <!-- footer -->
+       <footer>
+            <p>Copyright  &copy; 2019 All rights reserved</p>
+            <p>&hearts; &hearts; &hearts; &hearts;<p>
+            <p> made by Mahmoud Khaled Gamal</p>
+     </footer>
+     </div>
+     <script src="main.js">     
+      </script>
+  </body>
+</html>
